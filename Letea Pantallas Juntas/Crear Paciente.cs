@@ -73,9 +73,14 @@ namespace Pantalla_Contraseña
 
         private void btn_Volver_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             FormPacientes2 form = new FormPacientes2();
             form.Show();
             this.Hide();
+=======
+            Color_Fondo = Color.FromArgb(208, 208, 208);
+            this.BackColor = Color_Fondo;
+>>>>>>> parent of 114c93f (Comentario: Guido puto)
         }
     }
 }
